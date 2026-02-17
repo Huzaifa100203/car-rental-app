@@ -1,6 +1,7 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { ToastContainer } from "react-toastify";
+import { SpeedInsights } from "@vercel/speed-insights/react";
 import Navbar from "./components/Navbar";
 import Home from "./pages/Home";
 import Footer from "./components/Footer";
@@ -50,6 +51,7 @@ const App = () => {
         
           </Routes>
         <ToastContainer position="top-right" autoClose={3000} hideProgressBar={false} />
+        <SpeedInsights />
         {/* <Footer /> */}
       </Router>
     </div>
