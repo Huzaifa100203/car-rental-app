@@ -94,7 +94,7 @@ To run this application on your local machine, you will need to have Node.js and
     yarn start
     ```
 
-The frontend application will typically be accessible at `http://localhost:3000`, and the backend API might be running on a different port (check your backend logs or configuration).
+The frontend application will typically be accessible at `http://localhost:3000`, and the backend API might be running on a different port.
 
 ## Project Structure
 car-rental-app/
@@ -190,6 +190,3 @@ The frontend is styled using Tailwind CSS, a utility-first CSS framework. This a
 
 Contributions to this project are welcome. If you find any issues or have suggestions for improvements, please feel free to open a pull request or create an issue on GitHub.
 
-## License
-
-[Specify the license under which this project is distributed]
